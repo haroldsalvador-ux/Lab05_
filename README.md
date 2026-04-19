@@ -1,5 +1,4 @@
-# PONER TU NOMBRE EDUARDPO CON APELLIDO Y DE HAROLD TAMBIEN OÑO
-
+# Harold Santivañez / Harold Salvador
 DATABASE
 
 ### GET http://127.0.0.1:8000/api/movies/
