@@ -31,4 +31,12 @@ class Movie(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self) -> str:
-        return self.title   
+        return self.title 
+      
+
+class Sala(models.Model):
+    nombre = models.CharField(max_length=100)
+    capacidad = models.PositiveIntegerField()
+
+    def __str__(self):
+        return self.nombre
